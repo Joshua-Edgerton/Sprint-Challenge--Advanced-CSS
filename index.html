@@ -8,6 +8,7 @@
 
   <link href="https://fonts.googleapis.com/css?family=Russo+One|Ubuntu" rel="stylesheet">
   <link href="css/index.css" rel="stylesheet">
+  <meta name="viewport" content= "width=device-width, initial-scale=1.0">
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -21,17 +22,38 @@
   <div class="container home">
 
     <header class="intro">
+      <div class="nav1">
+        <nav class="navhead">
+          <div class="titlenav">
+            <h1 class="title1">
+              SpaceWalkers
+            </h1>
+          </div>
+          <nav class="navbar">
+            <a class="navlink" href="">Home</a>
+            <a class="navlink" href="">About Us</a>
+            <a class="navlink" href="">Blog</a>
+            <a class="navlink" href="">Contact</a>
+            <a class="navlink" href="">Sign In</a>
+          </nav>
+        </nav>
+      </div>
+      <div class="undernav">
+        <img class="headimg" src="/img/main-header.png" alt="">
+      </div>
+    </header>
+    <section class="underhead">
        <!-- image code here -->
 
-      <h2>Lift Off</h2>
+       <h2>Lift Off</h2>
     
-      <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would fall apart. Seeing this has to change a man.</p>
-    </header>
+       <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would fall apart. Seeing this has to change a man.</p>
+    </section>
 
     <section class="space-images">
-        <img src="img/blast.png" class="blast" alt="Rocket blasting off">
-        <img src="img/sky.png" class="sky" alt="Space sky image">
-        <img src="img/launch.png" class="launch" alt="Launching rocket">
+        <img id="grow1" src="img/blast.png" class="blast anim1" alt="Rocket blasting off">
+        <img src="img/sky.png" class="sky anim1" alt="Space sky image">
+        <img src="img/launch.png" class="launch anim1" alt="Launching rocket">
     </section>
    
     <section class="visit-planets">
@@ -43,7 +65,7 @@
       <p>Which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it.</p>
     </section>
     
-    <section class="walk">
+    <section id="walk2" class="walk">
       <div class="walk-text">
         <h3>Let's Go For A Walk</h3>
 
@@ -57,7 +79,7 @@
       </div>
       
       <div class="walk-img">
-          <img src="img/space-walk.png" alt="Space walking astronaut">
+          <img class="anim1" id="walk1"src="img/space-walk.png" alt="Space walking astronaut">
       </div>
 
     </section>
